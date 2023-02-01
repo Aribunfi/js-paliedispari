@@ -34,12 +34,13 @@ let gameTotal = userNumber + pcNumber;
 let evenGameTotal = isEven(gameTotal);
 
 function isEven(num) {
-    if(num % 2 == 0) {
+    if(num % 2 == 0); {
         console.log ("La somma dei due numeri è pari");
-        return true;
-    }
-        console.log ("La somma dei due numeri è dispari");
-    return false;
+        alert("Ha vinto l'utente")
+
+    return true; }
+
 }
 
 // Dichiariamo chi ha vinto.
+
